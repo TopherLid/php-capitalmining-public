@@ -98,16 +98,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-lg-4">
-        <div class="card mx-auto text-center">
-          <img src="<?= base_url(); ?>public/assets/img/productos/4.png" class="img-fluid img-card-prod rounded-start"
-            alt="Protector de enchufes">
-          <div class="card-body">
-            <h5 class="card-title">Protector de enchufes</h5>
-            <p class="card-text">Información general del producto</p>
-          </div>
-        </div>
-      </div>
+      
       <div class="col-md-6 col-lg-4">
         <div class="card mx-auto text-center">
           <img src="<?= base_url(); ?>public/assets/img/productos/5.png" class="img-fluid img-card-prod rounded-start"

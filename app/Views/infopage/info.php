@@ -140,7 +140,7 @@
         <h2 class="text-center">Nuestro Equipo</h2>
         <div class="col-md-6 col-xl-3">
           <div class="card mx-auto text-center border-0" style="width: 18rem;">
-            <img src="<?= base_url(); ?>public/assets/img/ico.png" class="card-img-top" alt="Foto Trabajador">
+            <img src="<?= base_url(); ?>public/assets/img/equipo/carlos-sep.jpeg" class="card-img-top" alt="Foto Trabajador">
             <div class="card-body">
               <h5 class="card-title">Carlos Sepúlveda Cancino</h5>
               <p class="card-text">Gerente General</p>

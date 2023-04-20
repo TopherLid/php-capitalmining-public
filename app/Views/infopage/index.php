@@ -39,16 +39,16 @@
             <a class="nav-link active" href="<?= base_url();?>"><i class="fa-solid fa-house"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url(); ?>sobre-nosotros"><i class="fa-solid fa-users"></i> Qui&eacute;nes somos</a>
+            <a class="nav-link disabled" href="<?= base_url(); ?>sobre-nosotros"><i class="fa-solid fa-users"></i> Qui&eacute;nes somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url(); ?>productos"><i class="fa-solid fa-box"></i> Productos</a>
+            <a class="nav-link disabled" href="<?= base_url(); ?>productos"><i class="fa-solid fa-box"></i> Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url(); ?>servicios"><i class="fa-solid fa-hand-holding-hand"></i> Servicios</a>
+            <a class="nav-link disabled" href="<?= base_url(); ?>servicios"><i class="fa-solid fa-hand-holding-hand"></i> Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url(); ?>proyectos"><i class="fa-solid fa-book"></i> Proyectos</a>
+            <a class="nav-link disabled" href="<?= base_url(); ?>proyectos"><i class="fa-solid fa-book"></i> Proyectos</a>
           </li>
         </ul>
       </div>
@@ -61,7 +61,7 @@
     <div class="container-flex contenedor-main bg-dark">
       <div class="videito">
         <video autoplay muted loop plays-inline preload="auto" width="100%">
-          <source src="<?= base_url(); ?>public/assets/vid/dronatacama.mp4" type="video/mp4">
+          <source src="<?= base_url(); ?>public/assets/vid/bg-home.mp4" type="video/mp4">
         </video>
       </div>
       <div class="text-contenedor">
@@ -75,12 +75,14 @@
 
   <section>
     <div class="container text-center">
-      <h2 class="text-center py-3">Certificaciones</h2>
+      <h2 class="text-center py-5">Certificaciones</h2>
       <div class="row py-5 gy-3">
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card mx-auto card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/home/cert-REGIC.png" class="card-img-top" alt="Certificado REGIC" />
+            <a href="https://www.achilles.com/community/regic/">
+              <img src="<?= base_url(); ?>public/assets/img/home/cert-REGIC.png" class="card-img-top" alt="Certificado REGIC" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">
                 Certificado por <br> REGIC
@@ -91,7 +93,9 @@
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card mx-auto card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/home/sicep.png" class="card-img-top" alt="Certificado SICEP" />
+            <a href="https://www.sicep.cl/">
+              <img src="<?= base_url(); ?>public/assets/img/home/sicep.png" class="card-img-top" alt="Certificado SICEP" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">
                 Certificado por <br> SICEP
@@ -102,7 +106,9 @@
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card mx-auto card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/home/CCS.png" class="card-img-top" alt="Certificado CCS" />
+            <a href="https://www.ccs.cl/">
+              <img src="<?= base_url(); ?>public/assets/img/home/CCS.png" class="card-img-top" alt="Certificado CCS" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">
                 Certificado por <br>
@@ -158,7 +164,9 @@
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/clientes/codelco.png" class="card-img-top" alt="Cliente Codelco" />
+            <a href="https://www.codelco.com/">
+              <img src="<?= base_url(); ?>public/assets/img/clientes/codelco.png" class="card-img-top" alt="Cliente Codelco" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">Codelco</h5>
               <p class="card-text">Cliente desde el año 2021</p>
@@ -168,7 +176,9 @@
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/clientes/bhp-billiton.png" class="card-img-top" alt="Cliente BHP Billiton" />
+            <a href="https://www.bhp.com/es">
+              <img src="<?= base_url(); ?>public/assets/img/clientes/bhp-billiton.png" class="card-img-top" alt="Cliente BHP Billiton" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">BHP Billiton</h5>
               <p class="card-text">Cliente desde el año 2021</p>
@@ -178,7 +188,9 @@
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/clientes/wsp.png" class="card-img-top" alt="Cliente WSP" />
+            <a href="https://www.wsp.com/es-cl">
+              <img src="<?= base_url(); ?>public/assets/img/clientes/wsp.png" class="card-img-top" alt="Cliente WSP" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">WSP Ambiental</h5>
               <p class="card-text">Cliente desde el año 2021</p>
@@ -188,7 +200,9 @@
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/clientes/ferrovial.png" class="card-img-top" alt="Cliente Ferrovial Servicios" />
+            <a href="https://www.ferrovial.com/es-la/">
+              <img src="<?= base_url(); ?>public/assets/img/clientes/ferrovial.png" class="card-img-top" alt="Cliente Ferrovial Servicios" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">Ferrovial Servicios</h5>
               <p class="card-text">Cliente desde el año 2021</p>
@@ -198,7 +212,9 @@
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/clientes/berliam.png" class="card-img-top" alt="Cliente Berliam" />
+            <a href="https://aprimin.cl/site/asociados/berliam-la-nueva-marca-de-broadspectrum-en-chile/">
+              <img src="<?= base_url(); ?>public/assets/img/clientes/berliam.png" class="card-img-top" alt="Cliente Berliam" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">Berliam</h5>
               <p class="card-text">Cliente desde el año 2021</p>
@@ -208,7 +224,9 @@
         <!-- Creación de las cards por columna -->
         <div class="col-md-6 col-lg-4 col-card">
           <div class="card card-effect card-certificacion">
-            <img src="<?= base_url(); ?>public/assets/img/clientes/carola-coemin.png" class="card-img-top" alt="Cliente Carola-Coemin" />
+            <a href="https://carola-coemin.cl/">
+              <img src="<?= base_url(); ?>public/assets/img/clientes/carola-coemin.png" class="card-img-top" alt="Cliente Carola-Coemin" />
+            </a>
             <div class="card-body">
               <h5 class="card-title">Grupo Minero Carola-Coemin</h5>
               <p class="card-text">Cliente desde el año 2021</p>
@@ -233,7 +251,9 @@
               <!-- Creación de la Card -->
               <div class="col-xs-6 col-md-4 col-card">
                 <div class="card mx-auto border-0 card-certificacion">
-                  <img src="<?= base_url(); ?>public/assets/img/clientes/codelco.png" class="card-img-top" alt="Cliente Codelco" />
+                  <a href="https://www.codelco.com/">
+                    <img src="<?= base_url(); ?>public/assets/img/clientes/codelco.png" class="card-img-top" alt="Cliente Codelco" />
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">Codelco</h5>
                     <p class="card-text">Cliente desde el año 2021</p>
@@ -243,7 +263,9 @@
               <!-- Creación de la Card -->
               <div class="col-xs-6 col-md-4 col-card">
                 <div class="card mx-auto border-0 card-certificacion">
-                  <img src="<?= base_url(); ?>public/assets/img/clientes/bhp-billiton.png" class="card-img-top" alt="Cliente BHP Billiton" />
+                  <a href="https://www.bhp.com/es">
+                    <img src="<?= base_url(); ?>public/assets/img/clientes/bhp-billiton.png" class="card-img-top" alt="Cliente BHP Billiton" />
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">BHP Billiton</h5>
                     <p class="card-text">Cliente desde el año 2021</p>
@@ -253,7 +275,9 @@
               <!-- Creación de la Card -->
               <div class="col-xs-6 col-md-4 col-card">
                 <div class="card mx-auto border-0 card-certificacion">
-                  <img src="<?= base_url(); ?>public/assets/img/clientes/wsp.png" class="card-img-top" alt="Cliente WSP" />
+                  <a href="https://www.wsp.com/es-cl">
+                    <img src="<?= base_url(); ?>public/assets/img/clientes/wsp.png" class="card-img-top" alt="Cliente WSP" />
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">WSP Ambiental</h5>
                     <p class="card-text">Cliente desde el año 2021</p>
@@ -268,7 +292,9 @@
               <!-- Creación de la Card -->
               <div class="col-md-6 col-lg-4 col-card">
                 <div class="card mx-auto border-0 card-certificacion">
-                  <img src="<?= base_url(); ?>public/assets/img/clientes/ferrovial.png" class="card-img-top" alt="Cliente Ferrovial Servicios" />
+                  <a href="https://www.ferrovial.com/es-la/">
+                    <img src="<?= base_url(); ?>public/assets/img/clientes/ferrovial.png" class="card-img-top" alt="Cliente Ferrovial Servicios" />
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">Ferrovial Servicios</h5>
                     <p class="card-text">Cliente desde el año 2021</p>
@@ -278,8 +304,9 @@
               <!-- Creación de la Card -->
               <div class="col-md-6 col-lg-4 col-card">
                 <div class="card mx-auto border-0 card-certificacion">
-                  <a href="#"><img src="<?= base_url(); ?>public/assets/img/clientes/berliam.png" class="card-img-top"
-                      alt="Cliente Berliam" /></a>
+                  <a href="https://aprimin.cl/site/asociados/berliam-la-nueva-marca-de-broadspectrum-en-chile/">
+                    <img src="<?= base_url(); ?>public/assets/img/clientes/berliam.png" class="card-img-top" alt="Cliente Berliam" />
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">Berliam</h5>
                     <p class="card-text">Cliente desde el año 2021</p>
@@ -289,7 +316,9 @@
               <!-- Creación de la Card -->
               <div class="col-md-6 col-lg-4 col-card">
                 <div class="card mx-auto border-0 card-certificacion">
-                  <img src="<?= base_url(); ?>public/assets/img/clientes/carola-coemin.png" class="card-img-top" alt="Cliente Carola-Coemin" />
+                  <a href="https://carola-coemin.cl/">
+                    <img src="<?= base_url(); ?>public/assets/img/clientes/carola-coemin.png" class="card-img-top" alt="Cliente Carola-Coemin" />
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title">Grupo Minero Carola-Coemin</h5>
                     <p class="card-text">Cliente desde el año 2021</p>
